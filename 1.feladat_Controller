@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class Controller {
+    
+    public static void main(String[] args){
+
+        private ArrayList<Button> buttons = new ArrayList<Button>();
+        buttons.add("")
+        buttons.add("")
+        buttons.add("")
+        buttons.add("")
+
+
+        public Controller()
+
+        public void addButton(Button b)
+        public void pressAll()
+        public void releaseAll()
+        public int getNumOfPressedBtns()
+
+    }
+}
