@@ -1,0 +1,28 @@
+
+public class Button {
+
+    private String ID;
+    private boolean pressed;
+
+    public Button(String ID, boolean pressed){
+        
+    } 
+
+    public String getID(){
+        
+    }
+    public void setState(boolean pressed){
+        
+
+    }
+    public boolean getState(){
+
+    }
+
+    public static void main(String[] args) {
+        
+      }
+
+
+    }
+
