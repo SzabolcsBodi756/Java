@@ -1,0 +1,9 @@
+public class Main {
+    
+    Controller ctrl = new Controller();
+
+    System.out.println("Number of pressed buttons:" + ctrl.getNumOfPressedBtns());
+
+    }
+    
+   
