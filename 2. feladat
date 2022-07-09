@@ -1,0 +1,22 @@
+public class Primek{
+
+    public static void main(String[] args){
+        int[] primek = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47,};
+        for (int i = 0; i <= 100; i++){
+            for (int o = 0; o <= 14; o++){
+                if (i % primek[o] == 0){
+                    if (primek[o] * primek[o] == i){
+                        System.out.println(i);
+                    }else{
+                        for (int j = o; j < 14; j++){
+                            if (primek[o] * primek[j] == i){
+                                System.out.println(i);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}
